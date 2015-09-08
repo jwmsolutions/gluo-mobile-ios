@@ -32,8 +32,8 @@
 - (void)createTestList {
     self.testList = [[NSMutableArray alloc] init];
     [self.testList addObject:[TestItem initTestItem:@1 withName:@"Location" andSegue:@"embedFirst"]];
-    [self.testList addObject:[TestItem initTestItem:@2 withName:@"Map" andSegue:@"embedSecond"]];
-    //[self.testList addObject:[TestItem initTestItem:@3 withData:@"Other"]];
+    [self.testList addObject:[TestItem initTestItem:@2 withName:@"SOAP Service" andSegue:@"embedSecond"]];
+    [self.testList addObject:[TestItem initTestItem:@3 withName:@"REST Service" andSegue:@"embedThird"]];
 }
 
 - (void)didReceiveMemoryWarning {
